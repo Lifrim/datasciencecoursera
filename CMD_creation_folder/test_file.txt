@@ -1,0 +1,43 @@
+CLI Commands
+
+pwd <- print the current directory
+clear <- clears the screen
+cd <- change current working directory
+touch <- create file
+cp <- copy file (copy filename directoryname)
+cp -r <- copy directory (copy flag(-r = recurrsive) directoryname newdirectoryname)
+ls <- lists all directories in working directory
+rm <- remove command (delete) (rm directoryname / filename)
+rm -r <- removed recurrsively all directories and files)
+mv <- move command (movingdirectoryname movedtodirectoryname)
+mv <- change the name of the file (mv oldname newname)
+echo <- show variables
+
+Basic GIT Commands
+	Workplace
+	Index
+	Local repository
+	Remote repository (Git HUB)
+
+Add to Index, Commit to Local Repository, Push to Remote Repository
+
+Commands:
+add - . <- adds all new files
+	-u <- updates tracking
+	-A <- .+-u
+git commit -m <- commit to local repo
+git push <- push to remote repo
+git checkout -b <- creates a new branch of the repo on which other people work
+git branch <- what branch you are
+git checkout master <- going back to the master
+
+Basic markdown
+
+Synthax
+	Headings
+## This is secondary heading
+### This is tertiary heading
+	Unordered Lists
+* first item
+* second item
+* third item
